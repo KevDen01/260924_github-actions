@@ -32,7 +32,7 @@ jobs:
           if [ -f log.txt ]; then
             git add log.txt
             git commit -m "Update the log.txt"
-          else:
+          else
             echo "log.txt is not available"
           fi
 
